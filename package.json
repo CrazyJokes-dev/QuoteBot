@@ -1,0 +1,16 @@
+{
+	"name": "JustAnything",
+	"version": "1.0.0",
+	"description": "A discord bot solely meant to record out of context phrases, sentences, and words so that they can be called upon at a later date by people you don't really want knowing you said that",
+	"main": "bot.js",
+	"author": "CrazyJokes#0209",
+	"dependencies": {
+		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+		"discord.js": "^14.7.1",
+		"mongoose": "^6.9.0",
+		"winston": "^3.8.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.32.0"
+	}
+}
