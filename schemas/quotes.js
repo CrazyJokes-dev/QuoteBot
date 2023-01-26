@@ -15,9 +15,7 @@ const QuoteSchema = new mongoose.Schema({
 				type: String,
 				required: true,
 			},
-			quoterID: String,
-			ogMessageID: String,
-			ogChannelID: String,
+			authorID: String,
 			createdTimestamp: {
 				type: Number,
 				min: 0,

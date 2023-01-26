@@ -32,7 +32,7 @@ module.exports = {
 		await serverQuotes.push({
 			text,
 			author,
-			quoterID: interaction.user.id,
+			authorID: interaction.user.id,
 		});
 
 		await guild.save();
