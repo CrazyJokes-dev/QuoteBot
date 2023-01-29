@@ -19,6 +19,6 @@ module.exports = {
 		const randomQuote = quotes[ randNum - 1];
 
 
-		await interaction.reply('"' + randomQuote.text + '" -' + randomQuote.author);
+		await interaction.reply('"' + randomQuote.text + '" -' + `${randomQuote.author}`);
 	},
 };

@@ -1,5 +1,5 @@
 {
-	"name": "JustAnything",
+	"name": "Wise Words",
 	"version": "1.0.0",
 	"description": "A discord bot solely meant to record out of context phrases, sentences, and words so that they can be called upon at a later date by people you don't really want knowing you said that",
 	"main": "bot.js",

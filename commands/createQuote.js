@@ -37,6 +37,6 @@ module.exports = {
 
 		await guild.save();
 
-		await interaction.reply('"' + text + '" -' + author);
+		await interaction.reply('"' + text + '" -' + `${author}`);
 	},
 };
