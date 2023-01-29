@@ -28,7 +28,7 @@ module.exports = {
 		}
 
 		if (!list.length) {
-			await interaction.reply("This person hasn't said anything bad out of context yet! Please try again we they do!");
+			return await interaction.reply(`${interaction.options.getString("author")}` + " hasn't said anything bad out of context yet! Please try again we they do!");
 		}
 
 		const randNum = Math.ceil(Math.random() * list.length);
